@@ -16,18 +16,72 @@
         PROCEDIMENTOS
     </h1>
     <H2>
-        <main>
-            <a href="sub_pag_procedimentos/Depilacao_a_laser.html">DEPILAÇÃO A LASER</a>
-            <a href="sub_pag_procedimentos/pos_operatorio.html">PÓS OPERATÓRIO</a>
-            <a href="sub_pag_procedimentos/tratamento_celulite.html">TRATAMENTO PARA CELULITE</a>
-            <a href="sub_pag_procedimentos/tratamento_gordura_localizada.html">TRATAMENTO PARA GORDURA LOCALIZADA</a>
-            <a href="sub_pag_procedimentos/tratamento_flacidez.html">TRATAMENTO DE FLACIDEZ</a>
-            <a href="sub_pag_procedimentos/tonificacao_muscular.html">TONIFICAÇÃO MUSCULAR</a>
-            <a href="sub_pag_procedimentos/cliolipolise.html">CLIOLIPOLISE</a> 
-            <a href="sub_pag_procedimentos/massagem_relaxante.html">MASSAGEM RELAXANTE</a> 
-            <a href="sub_pag_procedimentos/desintoxicacao_organismo.html">DESINTOXICAÇÃO DO ORGANISMO</a>
-            <a href="sub_pag_procedimentos/massagem_relaxante_pes.html">MASSAGEM RELAXANTE PARA OS PÉS</a>
-        </main>
+
+        <div id="botao">
+            DEPILAÇÃO A LASER
+        </div>
+
+        <div id="botao">
+            PÓS OPERATÓRIO
+        </div>
+
+        <div id="botao">
+            TRATAMENTO PARA CELULITE  
+        </div>
+        
+        <div id="botao">
+            TRATAMENTO PARA GORDURA LOCALIZADA
+        </div>
+        
+        <div id="botao">
+            TRATAMENTO DE FLACIDEZ
+        </div>
+
+        <div id="botao">
+            TONIFICAÇÃO MUSCULAR
+        </div>
+
+        <div id="botao">
+            CLIOLIPOLISE
+        </div>
+
+        <div id="botao">
+            MASSAGEM RELAXANTE
+        </div>
+
+        <div id="botao">
+            DESINTOXICAÇÃO DO ORGANISMO
+        </div>
+        
+        <div id="botao">
+            MASSAGEM RELAXANTE PARA OS PÉS
+        </div>
+
     </H2>
+
+    <script>
+        var a = window.document.getElementById('botao')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+            a.style.background = '#57F1D8'
+            a.style.fontSize = '0.6em'
+            a.style.color = '#FD82CE'
+        }
+        function entrar() {
+            a.innerText = 'DEPILAÇÃO A LASER'
+            a.style.background = '#FD82CE'
+            a.style.fontSize = '0.65em'
+            a.style.color = '#0EAFAE'
+        }
+        function sair() {
+            a.style.background = '#0EAFAE'
+            a.style.fontSize = '0.6em'
+            a.style.color = '#FD82CE'
+        }
+    </script>
+
 </body>
 </html>

@@ -2,13 +2,13 @@
 backupcolors {
     color: #0EAFAE;
     color: #FD82CE;
-    color: #F535CB;
+    color: #f535cb;
     color: #757575;
     color: #57F1D8;
 }
 
 body {
-    background-color: #757575;
+    background-color: #0EAFAE;
     font-size: 20px;
 }
 
@@ -21,9 +21,24 @@ main {
     margin: auto;
 }
 
+div#botao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.6em;
+    border-radius: 0.5em;
+    box-shadow: 5px 5px 10px #086363;
+    margin-bottom: 1.5em;
+    background-color: #0EAFAE;
+    color: #FD82CE;
+    width: 300px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #801c6a;
+}
+
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3em;
+    font-size: 1.5em;
     color: #ffffff;
     text-align: center;
     text-shadow: 1px 1px 2px #757575;
@@ -43,3 +58,4 @@ h3 {
 p {
     text-align: justify;
 }
+
